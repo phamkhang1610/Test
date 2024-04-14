@@ -1,7 +1,6 @@
 package com.apitest.TestSping.database;
 
 import com.apitest.TestSping.Reponsitory.ProductReponsitory;
-import com.apitest.TestSping.entity.Product;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
@@ -19,10 +18,10 @@ public class DataProduct {
             @Override
             public void run(String... args) throws Exception {
                // Product productA = new Product("App",2020,"",2000);
-                Product productB = new Product("web",2021,"",999);
+             /*   Product productB = new Product("web",2021,"",999);
                 Product c = new Product("app",2023,"",9999);
                 logger.info("insert data:"+ productReponsitory.<Product>save(c));
-                logger.info("insert data:"+ productReponsitory.<Product>save(productB));
+                logger.info("insert data:"+ productReponsitory.<Product>save(productB));*/
             }
         };
     }
